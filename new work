@@ -1,0 +1,9 @@
+ce code nous laise modifier l'image pixel par pixel:
+1. le code commance au pixel en haut a gauche
+2. il enregistre la valeur du rouge du vert et du bleu
+3. il calcule aussi d'autre chause tell que la valeur du gris et la valeur maxilmal et minimal
+4. il inject en suite de nouvelles valeurs RGB dans le pixel
+5. il va au prochin pixel a droit et fait la meme chause
+6. quand il arive au bout de ligne il se rement au debut dans la prochaine colonne
+
+ce code ici remplace la valeur du bleu par la valeur minimal pour que les pixelles pour que l'limage ne contienent plus de bleu toute en gardant l'image avec une couleur naturelle
